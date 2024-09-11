@@ -2,26 +2,27 @@ Once the server is running, you can interact with the following API endpoints:
 
 User Authentication and Management:
 
-For All API need to get APi structure as
+For All API need to get API structure as
 
 E.g:-http://localhost:3000/api/auth/login
 
 
-Register: POST /api/auth/register
-Login: POST /api/auth/login
-Get User Profile: GET /api/user/profile/:userId
-Update User Profile: PUT /api/user/profile
-Stock Posts Management:
+- Register: POST /api/auth/register
+- Login: POST /api/auth/login
+- Get User Profile: GET /api/user/profile/:userId
+- Update User Profile: PUT /api/user/profile
 
-Create Post: POST /api/posts
-Get All Posts: GET /api/posts
-Get Single Post: GET /api/posts/:postId
-Delete Post: DELETE /api/posts/:postId
-Comments Management:
+- Stock Posts Management:
 
-Add Comment: POST /api/posts/:postId/comments
-Delete Comment: DELETE /api/posts/:postId/comments/:commentId
-Like System:
+- Create Post: POST /api/posts
+- Get All Posts: GET /api/posts
+- Get Single Post: GET /api/posts/:postId
+- Delete Post: DELETE /api/posts/:postId
 
-Like Post: POST /api/posts/:postId/like
-Unlike Post: DELETE /api/posts/:postId/like
+- Comments Management:
+- Add Comment: POST /api/posts/:postId/comments
+- Delete Comment: DELETE /api/posts/:postId/comments/:commented
+
+- Like System:
+- Like Post: POST /api/posts/:postId/like
+- Unlike Post: DELETE /api/posts/:postId/like
