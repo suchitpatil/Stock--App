@@ -15,11 +15,11 @@ Cloning the Repository
 
 - git clone https://github.com/suchitpatil/Stock--App.git
 
-Setting Up the Project
+- Setting Up the Project
 
 - npm install
 
-Configure Environment Variables:
+- Configure Environment Variables:
 
 MONGO_URI=mongodb://localhost:27017/stockapp
 JWT_SECRET=your_jwt_secret_key
